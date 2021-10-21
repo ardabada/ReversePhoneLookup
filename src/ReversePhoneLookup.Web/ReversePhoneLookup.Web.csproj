@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ReversePhoneLookup.Abstract\ReversePhoneLookup.Abstract.csproj" />
+    <ProjectReference Include="..\ReversePhoneLookup.Api\ReversePhoneLookup.Api.csproj" />
+    <ProjectReference Include="..\ReversePhoneLookup.Models\ReversePhoneLookup.Models.csproj" />
+  </ItemGroup>
+
+</Project>
